@@ -1,0 +1,54 @@
+# Node modules (server and client)
+node_modules/
+client/node_modules/
+
+# Build output
+dist/
+build/
+client/build/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# dotenv environment variables
+.env
+.env.*     # ignore all environment variants like .env.development, etc.
+client/.env
+client/.env.*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+*.swp
+
+# Coverage
+coverage/
+client/coverage/
+
+# MongoDB data dump
+dump/
+
+# Misc
+*.tgz
+*.gz
+*.zip
+
+# Optional: ignore test coverage and cache from testing tools
+.nyc_output/
+.cache/
+client/.cache/
+
+.env
